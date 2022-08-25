@@ -36,13 +36,40 @@ class User {
   }
   // metodos
   speak() {
-    return "Hello Perro";
+    return "Hello Perra";
   }
   greeting() {
     return `${this.speak()} ${this.name}`;
   }
 }
 
+const perra = new User("Alondra");
+console.log(perra.greeting());
 
-const hector = new User('Hector');
-console.log(hector.greeting());
+// setters y getters
+
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  // metodos
+  speak() {
+    return "Hello Perra";
+  }
+  greeting() {
+    return `${this.speak()} ${this.name}`;
+  }
+
+  get uAge() {
+    return this.age;
+  }
+  set uAge(n) {
+    this.age = n;
+  }
+}
+
+const bebeloper = new User('Bebe', 20);
+console.log(bebeloper.uAge);
+bebeloper.uAge = 30;
+console.log(bebeloper.uAge);
