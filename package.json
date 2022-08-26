@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "Héctor Haro H <hector8.haro@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
