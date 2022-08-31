@@ -9,5 +9,3 @@ console.log(it.next().value)
 console.log(it.next().value)
 console.log(it.next().value)
 console.log(it.next().value)
-
-
