@@ -10,4 +10,4 @@ const users = {
 };
 
 console.log(users.hhh.country);
-console.log(users.bebeloper.country)
+console.log(users?.bebeloper?.country)
