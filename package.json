@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Héctor Haro H <hector8.haro@gmail.com>",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
 }
